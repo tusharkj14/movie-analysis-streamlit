@@ -4,7 +4,7 @@ import pandas as pd
 from text_p import text_processing
 pd.set_option("display.max_colwidth",200)
 import nltk
-nltk.data.path.append('app/nltk_data')
+nltk.data.path.append('/app/.heroku/python/nltk_data')
 
 @st.cache
 def load_data(name_of_csv):
