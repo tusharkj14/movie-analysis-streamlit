@@ -6,4 +6,4 @@ porter = PorterStemmer()
 def text_processing(data):
     nopunc = [i for i in data.lower() if i not in string.punctuation]
     nopunc = ''.join(nopunc)
-    return [porter.stem(i) for i in nopunc.split() if i not in stopwords.words('english') and len(i)>3]
+    return [porter.stem(i) for i in nopunc.split() if i not in stopwords.words('English') and len(i)>3]
