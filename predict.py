@@ -5,6 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from text_p import text_processing
 from joblib import dump, load
+import nltk
+nltk.data.path.append('path_to_nltk_data')
 
 def predict():
     model = load('sentiment_analysis.joblib')
@@ -28,7 +30,7 @@ def predict():
         st.image('images/confusion_matrix.png', caption='Confusion Matrix for a test dataset with 5000 values')
         st.write("Acuuracy over the test set is : 86.54%" )
 
-        
+
 def main():
     predict()
 

@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 from text_p import text_processing
 pd.set_option("display.max_colwidth",200)
+import nltk
+nltk.data.path.append('path_to_nltk_data')
 
 @st.cache
 def load_data(name_of_csv):
