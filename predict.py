@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from text_p import text_processing
 from joblib import dump, load
 import nltk
-nltk.data.path.append('nltk_data')
+nltk.data.path.append('app/nltk_data')
 
 def predict():
     model = load('sentiment_analysis.joblib')
