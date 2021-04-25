@@ -38,7 +38,7 @@ def explore():
     with st.beta_expander('See Text Processing'):
         my_slider_val = st.slider('Index of Review Text', 1, 40000)
         st.write("Before Processing")
-        st.write(df['text'].iloc[my_slider_val])
+        st.write(df['text'].iloc[my_slider_val-1])
         # placeholder_new = st.empty()
         if st.checkbox("Process Text Data"):
             processed = text_processing(df['text'].iloc[my_slider_val-1])
