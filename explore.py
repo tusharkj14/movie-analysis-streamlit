@@ -36,7 +36,7 @@ def explore():
     st.image('images/Negative vs Positive.png', caption='Length of Negative Movie Reviews vs Length of Positive Movie Reviews')
 
     with st.beta_expander('See Text Processing'):
-        my_slider_val = st.slider('Index of Review Text', 0, 50000)
+        my_slider_val = st.slider('Index of Review Text', 0, 40000)
         st.write("Before Processing")
         st.write(df['text'].iloc[my_slider_val])
         # placeholder_new = st.empty()
