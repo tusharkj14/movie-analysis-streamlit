@@ -15,19 +15,17 @@ else:
     explore()
 
 st.sidebar.markdown(
-    """<p style='display: block; position: fixed; text-align: center; color: white; bottom: 10%; left:2%'>Maintained By Tushar Kanti Jaiswal</p>
+    """<div style='display: inline; position: fixed; bottom: 5%;'>
+        <p style ='text-align: centre;'>Maintained By Tushar Kanti Jaiswal</p>
+        <p style ='left: 10%'>
+        <a href="https://github.com/tusharkj14" target="_blank">Github</a>
+        <a href="https://www.linkedin.com/in/tushar-jaiswal14b/" target="_blank">LinkedIn</a>
+        </p>
+        </div>
     """,
     unsafe_allow_html=True,
 )
 
-st.sidebar.markdown(
-    """<a style='display: block; position: fixed; bottom: 5%; left:5%;' href="https://github.com/tusharkj14" target="_blank">Github</a>
-    """,
-    unsafe_allow_html=True,
-)
 
-st.sidebar.markdown(
-    """<a style='display: block; position: fixed; bottom: 5%; left:10%;' href="https://www.linkedin.com/in/tushar-jaiswal14b/" target="_blank">LinkedIn</a>
-    """,
-    unsafe_allow_html=True,
-)
+
+
