@@ -27,7 +27,7 @@ st.sidebar.markdown(
 )
 
 st.sidebar.markdown(
-    """<a style='display: block; position: fixed; bottom: 5%; left:10%;' href="https://linkedin.com/" target="_blank">LinkedIn</a>
+    """<a style='display: block; position: fixed; bottom: 5%; left:10%;' href="https://www.linkedin.com/in/tushar-jaiswal14b/" target="_blank">LinkedIn</a>
     """,
     unsafe_allow_html=True,
 )
