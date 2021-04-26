@@ -102,3 +102,7 @@ Or else, the file can be run locally by using the `streamlit run app.py` command
   - This file tells Heroku to use `setup.sh` to serve our app, which is called `app` inside `app.py`, and to preload a worker before serving the app. Preloading causes Heroku's error logs to be much more informative.
 2. The `requirements.txt` file contains the necessary packages for the app to run.
 3. The `nltk.txt` file contains the lists of corpora from the nltk library you need to use.
+
+## To Use the Model:
+
+To Use the model you need to have `sentiment_analysis.joblib` file and also the `text_p.py` program which contains the text processing function required for the model. Load Both of them in your program and use `model.predict()` function to get results.
