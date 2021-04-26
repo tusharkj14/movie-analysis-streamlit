@@ -3,7 +3,7 @@
 ![Predict Page](images/Predict_ss.png)
 
 ## Background
-This is a fun side project I did to make and deploy my first end to end Machine Learning project by using [NLP](https://en.wikipedia.org/wiki/Natural_language_processing)and using [Streamlit](https://docs.streamlit.io/en/stable/index.html) to make a web app in few steps.
+This is a fun side project I did to make and deploy my first end to end Machine Learning project by using [NLP](https://en.wikipedia.org/wiki/Natural_language_processing) and using [Streamlit](https://docs.streamlit.io/en/stable/index.html) to make a web app in few steps.
 
 ## Table of contents
 * [Python](#python)
