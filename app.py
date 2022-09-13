@@ -20,6 +20,7 @@ st.sidebar.markdown(
         <p style ='left: 10%'>
         <--<a href="https://github.com/tusharkj14" target="_blank">Github</a>
         <a href="https://www.linkedin.com/in/tushar-jaiswal14b/" target="_blank">LinkedIn</a>-->
+        <-- -->
         </p>
         </div>
     """,
