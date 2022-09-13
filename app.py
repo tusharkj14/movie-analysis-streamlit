@@ -16,10 +16,10 @@ else:
 
 st.sidebar.markdown(
     """<div style='display: inline; position: fixed; bottom: 5%;'>
-        <p style ='text-align: centre;'>Maintained By Tushar Kanti Jaiswal</p>
+        <p style ='text-align: centre;'>Maintained By Tushar Kanti Jaiswal and Ishaan Mittal</p>
         <p style ='left: 10%'>
-        <a href="https://github.com/tusharkj14" target="_blank">Github</a>
-        <a href="https://www.linkedin.com/in/tushar-jaiswal14b/" target="_blank">LinkedIn</a>
+        <--<a href="https://github.com/tusharkj14" target="_blank">Github</a>
+        <a href="https://www.linkedin.com/in/tushar-jaiswal14b/" target="_blank">LinkedIn</a>-->
         </p>
         </div>
     """,
